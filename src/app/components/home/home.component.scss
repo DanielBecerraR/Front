@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid #ffffff;
+    margin: 10%;
+  }
+  
+  .box {
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .box-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .background-container {
+    background-image: url('../../../assets/images/fondo_services.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de opacidad según tus necesidades */
+  }

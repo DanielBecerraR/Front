@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/Login/login.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
+import { HomeLayoutComponent } from './layouts/home-layout.component';
+import { ServicesComponent } from './components/Services/services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeLayoutComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
